@@ -2,8 +2,16 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.CoinApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryVariant">@color/red</item>
     </style>
 
     <style name="Theme.CoinApp" parent="Base.Theme.CoinApp" />
+
+    <style name="Theme.CoinApp.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/red</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/graph</item>
+        <item name="postSplashScreenTheme">@style/Theme.CoinApp</item>
+    </style>
+
 </resources>
